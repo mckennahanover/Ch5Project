@@ -1,0 +1,81 @@
+body {
+  background-color: #99CC99;
+  color: #000000;
+  font-family: Arial, Verdana, sans-serif;
+}
+
+header {
+  background-color: #996600;
+  color: #FFFFFF;
+  font-family: Arial, Verdana, sans-serif;
+}
+
+h1 {
+  background-image: url(coffeebeans.jpg);
+  background-repeat: no-repeat;
+  width: 100%;
+  margin: 0;
+  background-color: #996600;
+  color: #FFFFFF;
+}
+
+nav {
+  font-weight: bold;
+  text-align: center;
+}
+
+nav li {
+  display: inline-block;
+}
+
+h2 {
+  background-color: #99CC99;
+  color: #000000;
+  font-family: Arial, Verdana, sans-serif;
+}
+
+div {
+  padding-left: 10;
+  padding-right: 10;
+  white-space: normal;
+}
+
+p {
+  border: 5px solid red;
+  padding: 30px;
+}
+
+footer {
+  width: 100%;
+  position: absolute;
+  white-space: normal;
+  text-align: left;
+  padding-top: 100px;
+  bottom: 0;
+}
+
+ul {
+  list-style-type: none;
+  width: 50%;
+  white-space: normal;
+}
+
+#one {
+  float: left;
+  white-space: normal;
+  position: relative;
+  width: 25%;
+}
+
+#two {
+  float: right;
+  white-space: normal;
+  position: relative;
+  width: 25%;
+  margin-top: 100px;
+}
+
+#wrapper {
+  background-color: #99CC99;
+  height: 100%;
+}
