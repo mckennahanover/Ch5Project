@@ -12,7 +12,7 @@ header {
 
 h1 {
   background-image: url(coffeebeans.jpg);
-  background-repeat: no-repeat;
+  background-repeat: repeat;
   width: 100%;
   margin: 0;
   background-color: #996600;
@@ -40,42 +40,28 @@ div {
   white-space: normal;
 }
 
-p {
-  border: 5px solid red;
-  padding: 30px;
-}
-
-footer {
-  width: 100%;
-  position: absolute;
-  white-space: normal;
-  text-align: left;
-  padding-top: 100px;
-  bottom: 0;
-}
-
 ul {
   list-style-type: none;
-  width: 50%;
-  white-space: normal;
 }
 
 #one {
   float: left;
-  white-space: normal;
-  position: relative;
   width: 25%;
 }
 
 #two {
   float: right;
-  white-space: normal;
-  position: relative;
   width: 25%;
-  margin-top: 100px;
 }
 
 #wrapper {
   background-color: #99CC99;
   height: 100%;
 }
+
+#imagemap {
+  text-align: center;
+}
+
+/*Media Queries */
+@media only screen and (max-width: 1024px)
