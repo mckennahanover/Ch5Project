@@ -1,3 +1,7 @@
+* {
+  box-sizing: border-box;
+}
+
 body {
   background-color: #99CC99;
   color: #000000;
@@ -44,9 +48,17 @@ ul {
   list-style-type: none;
 }
 
+main {
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+  clear: both;
+}
+
 #one {
   float: left;
   width: 25%;
+  margin-right: 70px;
 }
 
 #two {
@@ -61,6 +73,30 @@ ul {
 
 #imagemap {
   text-align: center;
+}
+
+.column {
+  float: left;
+  width: 33.33%;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.clearfix::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+#home {
+  width: 60%;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 /*Media Queries */
